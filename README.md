@@ -1,2 +1,2 @@
-# ULO-kernel
-Kernel repository for ULO Builder
+# ULO-Repository
+ULO repository for ULO Builder
