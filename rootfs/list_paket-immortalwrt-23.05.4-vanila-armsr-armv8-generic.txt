@@ -1,0 +1,5 @@
+dibuild menggunakan image selector:
+https://firmware-selector.immortalwrt.org
+
+list paket:
+base-files blkid block-mount busybox ca-bundle default-settings-chn dnsmasq-full dropbear e2fsprogs firewall4 fstools hostapd hostapd-utils htop iperf3 odhcp6c odhcpd-ipv6only ipv6helper iw-full jq libc libatomic libgcc libustream-openssl logd lsblk luci luci-app-opkg luci-app-ttyd luci-app-vnstat luci-compat luci-lib-base luci-lib-ipkg luci-proto-modemmanager mkf2fs mtd nano netifd nftables opkg openssh-client openssh-sftp-server partx-utils pciutils ppp ppp-mod-pppoe procd procd-seccomp procd-ujail uci uclient-fetch unzip urandom-seed urngd usb-modeswitch usbutils wget wget-ssl wireless-tools wpa-cli wpa-supplicant kmod-cfg80211 kmod-mac80211 kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload

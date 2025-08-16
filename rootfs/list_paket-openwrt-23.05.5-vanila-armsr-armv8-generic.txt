@@ -1,0 +1,5 @@
+dibuild menggunakan image selector:
+https://firmware-selector.openwrt.org
+
+list paket:
+base-files blkid busybox ca-bundle dropbear e2fsprogs firewall4 fstools libc libgcc libustream-mbedtls logd mkf2fs mtd netifd nftables odhcp6c odhcpd-ipv6only opkg ppp ppp-mod-pppoe procd procd-seccomp procd-ujail uci uclient-fetch urandom-seed urngd partx-utils luci block-mount dnsmasq-full hostapd hostapd-utils htop iperf3 iw-full jq libatomic lsblk luci-app-opkg luci-app-ttyd luci-app-vnstat luci-compat luci-lib-base luci-lib-ipkg luci-proto-modemmanager nano openssh-client openssh-sftp-server pciutils unzip usb-modeswitch usbutils wget wget-ssl wireless-tools wpa-cli wpa-supplicant kmod-cfg80211 kmod-mac80211 kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload

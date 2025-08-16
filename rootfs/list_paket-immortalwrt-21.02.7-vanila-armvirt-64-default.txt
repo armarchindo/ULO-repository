@@ -1,0 +1,13 @@
+- dibuild menggunakan image builder:
+https://downloads.immortalwrt.org/releases/21.02.7/targets/armvirt/64/immortalwrt-imagebuilder-21.02.7-armvirt-64.Linux-x86_64.tar.xz
+
+- dependensi yang digunakan di ubuntu:
+sudo apt install build-essential clang flex bison g++ gawk gcc-multilib g++-multilib \
+gettext git libncurses-dev libssl-dev python3-distutils python3-setuptools \
+rsync swig unzip zlib1g-dev file wget
+
+- list paket dan command yang digunakan:
+
+make image PROFILE="Default" \
+PACKAGES="base-files blkid block-mount busybox ca-bundle default-settings-chn -dnsmasq dnsmasq-full dropbear e2fsprogs firewall fstools hostapd hostapd-utils htop ip6tables iperf3 iptables ipv6helper iw-full jq kmod-cfg80211 kmod-ipt-offload kmod-ipt-raw kmod-mac80211 kmod-nf-nathelper kmod-nf-nathelper-extra libc libatomic libgcc libustream-openssl logd lsblk luci luci-app-filetransfer luci-app-opkg luci-app-ttyd luci-app-turboacc luci-app-vnstat luci-compat luci-lib-base luci-lib-fs luci-lib-ipkg luci-proto-modemmanager mkf2fs mtd nano netifd nftables odhcp6c odhcpd-ipv6only opkg openssh-client openssh-sftp-server partx-utils pciutils ppp ppp-mod-pppoe procd procd-ujail uci uclient-fetch unzip urandom-seed urngd usb-modeswitch usbutils wget wget-ssl wireless-tools wpa-cli wpa-supplicant" \
+FILES="files"
